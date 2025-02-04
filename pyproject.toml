@@ -6,5 +6,6 @@ readme = "README.md"
 requires-python = ">=3.9"
 dependencies = [
     "pytest>=8.3.4",
+    "ruff>=0.9.4",
 ]
 addopts = "--import-mode=importlib"
