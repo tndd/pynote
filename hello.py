@@ -1,4 +1,4 @@
-from src.b.sub import f_sub2
+from b.sub import f_sub2
 
 
 def main():
