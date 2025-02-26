@@ -1,4 +1,5 @@
 version = 1
+revision = 1
 requires-python = ">=3.9"
 resolution-markers = [
     "python_full_version >= '3.12'",
@@ -1311,6 +1312,15 @@ wheels = [
 ]
 
 [[package]]
+name = "pandas-ta"
+version = "0.3.14b0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "pandas" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/f7/0b/1666f0a185d4f08215f53cc088122a73c92421447b04028f0464fabe1ce6/pandas_ta-0.3.14b.tar.gz", hash = "sha256:0fa35aec831d2815ea30b871688a8d20a76b288a7be2d26cc00c35cd8c09a993", size = 115089 }
+
+[[package]]
 name = "parso"
 version = "0.8.4"
 source = { registry = "https://pypi.org/simple" }
@@ -1537,6 +1547,7 @@ dependencies = [
     { name = "numpy" },
     { name = "optuna" },
     { name = "pandas" },
+    { name = "pandas-ta" },
     { name = "polars" },
     { name = "ruff" },
     { name = "scikit-learn" },
@@ -1558,6 +1569,7 @@ requires-dist = [
     { name = "numpy", specifier = ">=1.26.4" },
     { name = "optuna", specifier = ">=4.2.0" },
     { name = "pandas", specifier = ">=2.2.3" },
+    { name = "pandas-ta", specifier = ">=0.3.14b0" },
     { name = "polars", specifier = ">=1.22.0" },
     { name = "ruff", specifier = ">=0.9.4" },
     { name = "scikit-learn", specifier = ">=1.6.1" },
